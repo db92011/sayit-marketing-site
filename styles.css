@@ -1686,6 +1686,18 @@ html body.sayit-install .footer-right {
     font-size: 0.9rem;
   }
 
+  html body.sayit-install #install .section-title {
+    margin-bottom: 12px;
+  }
+
+  html body.sayit-install #install .section-sub {
+    margin-top: 0;
+  }
+
+  html body.sayit-install #install .how-card {
+    margin-top: 18px;
+  }
+
   html body.sayit-install .hero {
     padding: 34px 0 28px;
   }
