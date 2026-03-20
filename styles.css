@@ -1659,6 +1659,11 @@ html body.sayit-install .footer-right {
 }
 
 @media (max-width: 760px) {
+  html body.sayit-install .section,
+  html body.sayit-install .final-cta {
+    scroll-margin-top: 172px;
+  }
+
   html body.sayit-install .sayit-wrap {
     width: min(100vw - 22px, 1120px);
   }
