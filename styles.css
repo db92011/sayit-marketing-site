@@ -1206,26 +1206,26 @@ html body.sayit-install .final-cta {
 }
 
 html body.sayit-install .hero {
-  padding: 58px 0 42px;
+  padding: 78px 0 54px;
 }
 
 html body.sayit-install .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
-  gap: clamp(24px, 4vw, 42px);
-  align-items: center;
-  justify-items: stretch;
-  max-width: none;
-  margin: 0;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+  justify-items: center;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 html body.sayit-install .hero-copy {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: none;
+  max-width: 900px;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 html body.sayit-install .pill {
@@ -1234,7 +1234,7 @@ html body.sayit-install .pill {
   justify-content: center;
   min-height: 38px;
   padding: 0 14px;
-  margin: 0 0 18px;
+  margin: 0 auto 20px;
   border-radius: 999px;
   border: 1px solid rgba(28, 165, 255, 0.2);
   background:
@@ -1247,35 +1247,32 @@ html body.sayit-install .pill {
   box-shadow: 0 10px 24px rgba(17, 118, 211, 0.08);
 }
 
-html body.sayit-install .hero-logo {
-  width: min(260px, 56vw);
-  margin: 0 0 18px;
-  filter: drop-shadow(0 20px 38px rgba(17, 118, 211, 0.12));
-}
-
 html body.sayit-install .hero-title {
   margin: 0;
-  max-width: 10.4ch;
-  font-size: clamp(3.5rem, 7vw, 6rem);
-  line-height: 0.94;
+  max-width: 11.2ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: clamp(4rem, 7.4vw, 6.5rem);
+  line-height: 0.92;
   letter-spacing: -0.072em;
   text-wrap: balance;
 }
 
 html body.sayit-install .hero-sub {
-  max-width: 37rem;
-  margin: 22px 0 0;
+  max-width: 42rem;
+  margin: 24px auto 0;
   color: var(--sayitm-copy);
-  font-size: 1.13rem;
-  line-height: 1.7;
+  font-size: 1.16rem;
+  line-height: 1.72;
 }
 
 html body.sayit-install .cta-row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 14px;
-  margin-top: 28px;
+  margin-top: 32px;
 }
 
 html body.sayit-install .btn {
@@ -1316,19 +1313,21 @@ html body.sayit-install .btn-ghost {
 }
 
 html body.sayit-install .download-note {
-  max-width: 40rem;
-  margin-top: 16px;
+  max-width: 42rem;
+  margin: 18px auto 0;
   color: var(--sayitm-copy);
   font-size: 0.98rem;
   line-height: 1.65;
-  text-align: left;
+  text-align: center;
 }
 
 html body.sayit-install .trust-row {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  margin-top: 32px;
+  width: 100%;
+  max-width: 940px;
+  margin: 38px auto 0;
 }
 
 html body.sayit-install .trust-item,
@@ -1373,13 +1372,14 @@ html body.sayit-install .hero-card {
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 28px;
+  max-width: 760px;
+  margin: 4px auto 0;
+  padding: 30px 32px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84)),
     linear-gradient(135deg, rgba(28, 165, 255, 0.12), rgba(255, 178, 110, 0.08));
   box-shadow: var(--sayitm-shadow);
+  text-align: left;
 }
 
 html body.sayit-install .hero-card::before {
@@ -1643,10 +1643,6 @@ html body.sayit-install .footer-right {
 }
 
 @media (max-width: 1080px) {
-  html body.sayit-install .hero-grid {
-    grid-template-columns: 1fr;
-  }
-
   html body.sayit-install .hero-card {
     max-width: 760px;
   }
@@ -1699,17 +1695,12 @@ html body.sayit-install .footer-right {
   }
 
   html body.sayit-install .hero {
-    padding: 34px 0 28px;
-  }
-
-  html body.sayit-install .hero-logo {
-    width: min(220px, 62vw);
-    margin: 0 auto 18px;
+    padding: 46px 0 28px;
   }
 
   html body.sayit-install .hero-title {
-    max-width: 8.6ch;
-    font-size: clamp(2.9rem, 13vw, 4.5rem);
+    max-width: 9.2ch;
+    font-size: clamp(3.1rem, 12vw, 4.9rem);
   }
 
   html body.sayit-install .hero-sub {
